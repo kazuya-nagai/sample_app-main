@@ -112,3 +112,5 @@ Railsチュートリアル運営チーム<br>
 <p>Dockerで立ち上げる</p>
 <p>①VSCodeのターミナルから必要なリポジトリをクローンする。元のURLはこちら（https://github.com/yasslab/codespaces-railstutorial）</p>
 <p>②Dockerを起動して、VSCode内でReopen in Container（コンテナーで開く）を実行すると、bundleが実行されて必要な環境が整う。</p>
+
+<p>詳しくはこちら（https://railstutorial.jp/help#devcontainer）</p>
