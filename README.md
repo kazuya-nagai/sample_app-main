@@ -1,4 +1,4 @@
-# Codespaces ♥️ Railsチュートリアル
+# Railsチュートリアル
 
 本リポジトリは[Railsチュートリアル](https://railstutorial.jp/)の [GitHub Codespaces](https://github.co.jp/features/codespaces) 用テンプレートです。2022年11月に公開された[GitHub公式のRailsテンプレート](https://github.com/github/codespaces-rails)を、[Railsチュートリアル](https://railstutorial.jp)用にカスタマイズしたものです。
 
@@ -109,7 +109,6 @@ Railsチュートリアル運営チーム<br>
 </small>
 
 ## 以下サービス立ち上げ手順
-<p>・Dockerで立ち上げる</p>
-<p>①VSCodeのターミナルからこちらのURLのリポジトリをクローンする。（https://github.com/saboyutaka/rails-tutorial7-devcontainer）</p>
-<p>②Dockerを起動して、VSCode内でReopen in Containerを実行する。</p>
-
+<p>Dockerで立ち上げる</p>
+<p>①VSCodeのターミナルから必要なリポジトリをクローンする。元のURLはこちら（https://github.com/yasslab/codespaces-railstutorial）</p>
+<p>②Dockerを起動して、VSCode内でReopen in Container（コンテナーで開く）を実行すると、bundleが実行されて必要な環境が整う。</p>
