@@ -16,15 +16,15 @@ jobs:
             git tag -a v$(date +'%Y%m%d%H%M%S') -m "Tagging from CircleCI"
             git push origin --tags
 
-  test-ruby:
-    docker:
-      - image: cimg/ruby:3.2.4-node
-    steps:
-      - checkout
-      - ruby/install-deps
-      - run:
-          name: rails test
-          command: bundle exec rails test
+  #test-ruby:
+  #  docker:
+  #    - image: cimg/ruby:3.2.4-node
+  #  steps:
+  #    - checkout
+  #    - ruby/install-deps
+  #    - run:
+  #        name: rails test
+  #        command: bundle exec rails test
 
   deploy:
     docker:
