@@ -107,3 +107,9 @@ Railsチュートリアル運営チーム<br>
   ソースコードのライセンスは <a href='https://github.com/yasslab/codespaces-railstutorial/blob/main/LICENSE'>LICENSE</a> をご確認ください。<br>
   ロゴ画像やデモ動画などは各制作者の著作物となります。
 </small>
+
+##　以下サービス立ち上げ手順
+<p>・Dockerで立ち上げる</p>
+<p>①VSCodeのターミナルからこちらのURLのリポジトリをクローンする。（https://github.com/saboyutaka/rails-tutorial7-devcontainer）</p>
+<p>②Dockerを起動して、VSCode内でReopen in Containerを実行する。</p>
+
