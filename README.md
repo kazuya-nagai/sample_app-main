@@ -13,6 +13,6 @@
 ## 注意事項
 <p>①fakeデータを利用したい場合は、$ rails db:migrate:reset を実行した後、$ rails db:seed　を実行してください。</p>
 <p>②Dockerfileとdocker-comppose.ymlがルートディレクトリにあるかどうか確認するしてください。</p>
-<p>③.devcintainerディレクトリが存在していることを確認し、ディレクトリの中にdevcontainer.jspnファイルがあることを確認してください。</p>
+<p>③.devcintainerディレクトリが存在していることを確認し、ディレクトリの中にdevcontainer.jsonファイルがあることを確認してください。</p>
 
 <p>詳しくはこちら（https://railstutorial.jp/help#devcontainer）</p>
