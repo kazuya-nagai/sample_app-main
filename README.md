@@ -5,8 +5,9 @@
 <p></p>
 <p>Dockerで立ち上げる</p>
 <p>①VSCode、Dockerをダウンロードし、Docker Desktopを起動しておく。</p>
-<p>②$ docker compose up を実行</p>
-<p>③$ docker compose down で終了</p>
+<p>②$ docker-compose buildを実行</p>
+<p>③$ docker compose up を実行</p>
+<p>④$ docker compose down で終了</p>
 
 ## 注意事項
 <p>①fakeデータを利用したい場合は、$ rails db:migrate:reset を実行した後、$ rails db:seed を実行してください。</p>
