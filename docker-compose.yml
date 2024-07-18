@@ -7,13 +7,16 @@ services:
       args:
         VARIANT: '3.1-bullseye'
         BUNDLER_VERSION: '2.3.14'
-        RAILS_VERSIONS: '7.0.3'
+        RAILS_VERSION: '7.0.3'
         NODE_VERSION: '16'
     environment:
       BINDING: 0.0.0.0
     volumes:
-      - ..:/home/vscode/environment:cached
+      - .:/usr/src/app  
       - bundle-volume:/usr/local/bundle
-    command: sleep infinity
+    ports:
+      - "3000:3000"
+    working_dir: /usr/src/app  
+    command: ["rails", "server", "-b", "0.0.0.0"]
 volumes:
   bundle-volume:
