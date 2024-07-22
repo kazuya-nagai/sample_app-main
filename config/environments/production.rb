@@ -90,4 +90,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # ホストの許可リストを設定
+  config.hosts << "54.250.13.123"
+  # config.hosts << "your-custom-domain.com"
 end
